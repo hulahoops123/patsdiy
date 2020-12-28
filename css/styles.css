@@ -28,7 +28,7 @@ p {
 
 /* Containers */
 .container-fluid {
-  padding: 7% 15%;
+  padding: 7% 10%;
 }
 
 /* Sections */
@@ -86,7 +86,7 @@ p {
 }
 
 #title .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 3% 7% 7%;
   text-align: left;
 }
 
