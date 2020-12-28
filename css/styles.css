@@ -138,9 +138,9 @@ p {
 /* Testimonials */
 .testimonial-picture {
   border-radius: 50%;
-  box-shadow: 10 10 10 10;
-   width: 10%;
-   margin: 20px;
+  /* box-shadow: 10 10 10 10; */
+  width: 10%;
+  margin: 10px;
 }
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
