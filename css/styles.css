@@ -1,0 +1,181 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  line-height: 1.5;
+  letter-spacing: 1.5;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: white;
+}
+
+.medium-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.coloredSection {
+  background-color: #58b4ae;
+  color: #ffe277;
+}
+
+.whiteSection {
+  background-color: white;
+}
+
+/* Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Nav Bar */
+.navbar {
+  font-size: large;
+  padding: 0 0 4.5rem;
+}
+.navbar-dark .navbar-brand{
+  color: #FFE277;
+
+}
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat'
+}
+.navbar-img{
+  max-width: 10%;
+  margin-right: 0;
+  /* transform: rotate(15deg); */
+}
+
+/* Title */
+.main-image {
+  transform: rotate(15deg);
+  width: 65%;
+  height: inherit;
+  margin: auto auto -30% 20%;
+  border-radius: 5%;
+
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+@media (max-width:1028px) {
+  .main-image {
+    transform: rotate(0deg);
+    position: static;
+    margin: auto;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Features */
+.feature-heading {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.feature-column {
+  padding: 1%;
+}
+
+.feature-icon {
+  color: #ffb367;
+  margin-bottom: 1rem;
+  max-width: 35%;
+}
+
+.feature-icon:hover {
+  margin-bottom: 1.1rem;
+  transform: rotate(20deg);
+}
+
+
+#services {
+  position: relative;
+}
+
+/* Pictures */
+
+
+.pictures-picture {
+  border-radius: 5%;
+}
+
+/* Testimonials */
+.testimonial-picture {
+  border-radius: 50%;
+  box-shadow: 10 10 10 10;
+   width: 10%;
+   margin: 20px;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(50%);
+}
+
+#pictures{
+  padding-bottom: 5%;
+}
+
+#testimonials, #press {
+  background-color: #ffe2bc;
+  color: grey;
+}
+
+.about-picture{
+  border-radius: 50%;
+  width: inherit;
+}
+
+.about-paragraph{
+  margin-top: 40px;
+}
+
+/* Pricing */
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Call to Action */
+/* Footer */
+.footer-icons {
+  margin: 1%;
+}
+
+#footer {
+  font-weight: 500;
+}
